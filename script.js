@@ -1,3 +1,4 @@
+function iniciarHistoria () {
 const historia = [
         {
             texto: "Olá astronauta! Que planeta pretende representar?",
