@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #75257c;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#backgroundContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('papel-de-parede-abstrato-ultra-detalhado-da-nebulosa-4.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+#story-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #75257c;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 50px rgba(255, 252, 252, 0.1);
+}
+#story-text {
+    font-size: 1.2em;
+    margin: 13px;
+}
+
+.choice {
+    font-size: 1em;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #a041ba;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: #a041ba;
+}
+
+#choices-container button {
+    display: block;
+    width: 85%;
+    margin-bottom: 13px;
+    margin-left: auto; 
+    margin-right: auto;
+}
